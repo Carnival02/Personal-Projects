@@ -1,0 +1,133 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background: #0D1117;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+
+}
+
+.nav_left a{
+    color:#9ba3b4;
+    margin-left:35px ;
+    font-weight: 400;
+}
+
+#txt{
+    color:#9ba3b4;
+    font-size:20px;
+    font-weight: 800;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.nav_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    background-color: #0D1117;
+    color: #9ba3b4;
+    border: 1px solid grey;
+    height: 28px;
+    width: 175px;
+    padding-left:37px ;
+    font-size: 15px;
+    border-radius: 4px;
+
+}
+button{
+    background: #0072be;
+    border: none;
+    color: white;
+    font-size:16px ;
+    font-weight: 700;
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+
+.hero_txt{
+    color:#9ba3b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    font-size: 2rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+ 
+.hero_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+button.but1{
+    background: #0072be;
+    border: none;
+    color: white;
+    font-size: 16px;
+    /* margin: 30px; */
+    height: 80px;
+    width: 150px;
+
+   
+}
+button.butt2{
+
+    background:#25292E ;
+    border: 1px solid rgba(255,255,255,0.3);
+    font-size: 16px;
+    height: 80px;
+    width: 180px;
+    /* padding-left: 10px;
+    */
+    margin-left: 10px;
+
+}
+.hero_links{
+
+    color:#9ba3b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 810px;
+    margin-right: 810px; 
+    font-size: 14px;
+}
+.hero_links a{
+    color: #0076bf;
+}
+.hero_section{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.hero_section img{
+    border-radius: 9px;
+    position: relative;
+}
+.hero_section video{
+    border-radius: 15px;
+    position: absolute;
+}
